@@ -26,22 +26,22 @@ An automated lightweight system monitoring tool built for Windows environments u
    git clone [https://github.com/YOUR_USERNAME/windows-system-health-monitor.git](https://github.com/YOUR_USERNAME/windows-system-health-monitor.git)
    cd windows-system-health-monitor
 
-🕒 Automation via Windows Task Scheduler
+## 🕒 Automation via Windows Task Scheduler
 To run this script automatically every 10 minutes:
 
-Open Task Scheduler and click Create Basic Task.
+1. Open Task Scheduler and click Create Basic Task.
 
-Set Trigger to Daily and configure it to repeat every 10 minutes.
+2. Set Trigger to Daily and configure it to repeat every 10 minutes.
 
-Set Action to Start a program:
+3. Set Action to Start a program:
 
-Program/script: C:\Program Files\Git\bin\bash.exe
+- Program/script: C:\Program Files\Git\bin\bash.exe
 
-Add arguments: --login -i -c '"/d/projects/CPU_RAM_Disk Monitor/system_monitor.sh" >> "/d/projects/CPU_RAM_Disk Monitor/system_monitor.log" 2>&1'
+- Add arguments: --login -i -c '"/d/projects/CPU_RAM_Disk Monitor/system_monitor.sh" >> "/d/projects/CPU_RAM_Disk Monitor/system_monitor.log" 2>&1'
 
-💻 Tech Stack
-Shell: Bash (Git Bash)
+## 💻 Tech Stack
+- Shell: Bash (Git Bash)
 
-Scripting: PowerShell (Win32 CIM Instance APIs)
+- Scripting: PowerShell (Win32 CIM Instance APIs)
 
-OS Platform: Windows
+- OS Platform: Windows
