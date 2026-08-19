@@ -35,9 +35,9 @@ To run this script automatically every 10 minutes:
 
 3. Set Action to Start a program:
 
-- Program/script: C:\Program Files\Git\bin\bash.exe
+   - Program/script: C:\Program Files\Git\bin\bash.exe
 
-- Add arguments: --login -i -c '"/d/projects/CPU_RAM_Disk Monitor/system_monitor.sh" >> "/d/projects/CPU_RAM_Disk Monitor/system_monitor.log" 2>&1'
+   - Add arguments: --login -i -c '"/d/projects/CPU_RAM_Disk Monitor/system_monitor.sh" >> "/d/projects/CPU_RAM_Disk Monitor/system_monitor.log" 2>&1'
 
 ## 💻 Tech Stack
 - Shell: Bash (Git Bash)
