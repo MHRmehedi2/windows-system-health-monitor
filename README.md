@@ -26,7 +26,7 @@ An automated lightweight system monitoring tool built for Windows environments u
    git clone [https://github.com/YOUR_USERNAME/windows-system-health-monitor.git](https://github.com/YOUR_USERNAME/windows-system-health-monitor.git)
    cd windows-system-health-monitor
 
-   🕒 Automation via Windows Task Scheduler
+🕒 Automation via Windows Task Scheduler
 To run this script automatically every 10 minutes:
 
 Open Task Scheduler and click Create Basic Task.
